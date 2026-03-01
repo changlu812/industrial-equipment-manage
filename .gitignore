@@ -14,13 +14,14 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Build outputs
-/dist/
-/dist-ssr/
-/coverage/
+dist/
+dist-ssr/
+coverage/
 .vite/
+.cache/
 *.tsbuildinfo
-*.local
 *.timestamp-*-*.mjs
+*.local
 .eslintcache
 
 # Environment files
@@ -28,9 +29,9 @@ lerna-debug.log*
 .env.*
 !.env.example
 
-# Editor and IDE
-.vscode/*
-!.vscode/extensions.json
+# Editor / IDE
+**/.vscode/*
+!**/.vscode/extensions.json
 .idea/
 *.suo
 *.ntvs*
@@ -39,9 +40,9 @@ lerna-debug.log*
 *.sw?
 
 # Test artifacts
-/cypress/videos/
-/cypress/screenshots/
-/__screenshots__/
+cypress/videos/
+cypress/screenshots/
+__screenshots__/
 
 # OS files
 .DS_Store

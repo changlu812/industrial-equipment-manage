@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pinia": "^3.0.4",
+    "vue-virtual-table": "file:../vue-virtual-table/vue-virtual-table-0.0.0.tgz"
+  }
+}
